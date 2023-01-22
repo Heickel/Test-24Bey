@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css?family=Acme|Lobster');
+
+body, html {
+  margin:0;
+  padding:0;
+  height: 100%;
+  width:100%;
+  font-family:"Open Sans", sans-serif;
+  min-width:700px;
+}
+
+.splitdiv{
+  height:100%;
+  width:50%;
+}
+
+/* left side  */
+    #leftdiv{
+    float:left;
+    background-color:white;
+    }
+
+    #leftdivcard{
+    margin:0 auto;
+    width:50%;
+    background-color:white;
+    margin-top: 50vh; 
+    transform: translateY(-50%);
+
+    }
+
+    #leftbutton{
+        background-color:#4ECDC4;
+        border-radius:5px;
+        color:#FAFAFA;
+    }
+
+
+
+/* right side  */
+    #rightdiv{
+    float:right;
+    background-image: url(img/background.PNG);
+    background-size: cover;
+    background-repeat: no-repeat;
+    }
+
+    #rightdivcard{
+    margin:0 auto;
+    width:50%;
+    margin-top: 50vh;
+    transform: translateY(-50%);
+
+    }
+
+/* Basic styling */
+    input{
+    font-family:"Open Sans", sans-serif;;
+    font-size:16px;
+    }
+
+    input{
+    width:85%;
+    height:40px;
+    padding:10px;
+    margin-left:2%;
+    margin-right:2%;
+    margin-top:10px;
+    margin-bottom:10px;
+    display:inline-block;
+    background-color:#FAFAFA;
+    border:none;
+    }
+
+    input:focus {
+        outline: none !important;
+        border:1px solid #4ECDC4;
+        box-shadow: 0 0 5px #719ECE;
+    }
+
+    input[type=button],input[type=submit]
+    {
+        outline: none !important;
+        font-family:"Open Sans", sans-serif;
+        margin-bottom:15px;
+        border:none;
+        font-size:20px;
+        padding:8px;
+        padding-left:20px;
+        padding-right:20px;
+        background-image: url(img/background.PNG);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+
